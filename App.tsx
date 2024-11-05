@@ -1,12 +1,12 @@
-import {View, Text} from 'react-native';
 import React from 'react';
+import Navigation from './src/stacks/Navigation';
 
 const App = () => {
-  return (
-    <View className="flex-1">
-      <Text className='text-2xl'>App</Text>
-    </View>
-  );
+  return <Main />;
+};
+
+const Main = () => {
+  return <Navigation />;
 };
 
 export default App;
